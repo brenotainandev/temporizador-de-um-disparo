@@ -2,6 +2,10 @@
 
 Este projeto implementa um **sistema de temporização One Shot** utilizando o **Raspberry Pi Pico W** e a biblioteca **Pico SDK**. O sistema aciona três LEDs (azul, vermelho e verde) **com base no clique de um botão** (pushbutton), desligando-os sequencialmente com um intervalo de 3 segundos entre cada estado.
 
+## 🎬 Demonstração do Funcionamento
+
+![Demonstração do Temporizador One Shot](gif/oneshot.gif)
+
 ---
 
 ## 📂 **Estrutura do Projeto**
@@ -15,7 +19,8 @@ temporizador-de-um-disparo/
 │── temporizador-de-um-disparo.c  # Código-fonte principal
 │── wokwi.toml                 # Configuração da simulação no Wokwi
 │── workflows/                 # Diretório para automação e integração contínua
-```
+│── gif/                       # Pasta contendo o GIF da demonstração
+│   └── oneshot.gif            # Arquivo de demonstração animada
 
 ---
 
