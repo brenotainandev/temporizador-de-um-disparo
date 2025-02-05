@@ -21,6 +21,7 @@ temporizador-de-um-disparo/
 │── workflows/                 # Diretório para automação e integração contínua
 │── gif/                       # Pasta contendo o GIF da demonstração
 │   └── oneshot.gif            # Arquivo de demonstração animada
+```
 
 ---
 
